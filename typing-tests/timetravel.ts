@@ -324,9 +324,9 @@ moment.locale('en');
 moment.locale(['en', 'fr']);
 
 // TODO: Reenable in 2.0
-// moment.defineLocale('en', null);
-// moment.updateLocale('en', null);
-// moment.locale('en', null);
+ moment.defineLocale('en', null);
+ moment.updateLocale('en', null);
+ moment.locale('en', null);
 
 // Defining a custom language:
 moment.locale('en', {
